@@ -1,0 +1,277 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpendWise Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="dashboard">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="brand">
+                <span class="brand-icon">💰</span>
+                <h2>SpendWise</h2>
+            </div>
+
+            <nav class="sidebar-nav">
+                <a href="#" class="nav-item active">
+                    <span>🏠</span>
+                    Dashboard
+                </a>
+
+                <a href="#" class="nav-item">
+                    <span>💳</span>
+                    Transactions
+                </a>
+
+                <a href="#" class="nav-item">
+                    <span>📊</span>
+                    Reports
+                </a>
+
+                <a href="#" class="nav-item">
+                    <span>🎯</span>
+                    Budgets
+                </a>
+
+                <a href="#" class="nav-item">
+                    <span>💰</span>
+                    Savings
+                </a>
+
+                <a href="#" class="nav-item">
+                    <span>⚙️</span>
+                    Settings
+                </a>
+            </nav>
+
+            <div class="sidebar-footer">
+                <p>Spend smarter.</p>
+                <p>Live better.</p>
+            </div>
+        </aside>
+
+
+        <!-- Main Area -->
+        <main class="main-content">
+
+            <!-- Header -->
+            <header class="header">
+                <div class="header-title">
+                    <p class="welcome">Welcome back 👋</p>
+                    <h1>Financial Dashboard</h1>
+                </div>
+
+                <div class="header-actions">
+                    <button class="notification" aria-label="Notifications">
+                        🔔
+                    </button>
+
+                    <div class="profile">
+                        <div class="profile-avatar">M</div>
+                        <div>
+                            <strong>Mascud</strong>
+                            <span>Account Holder</span>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+
+            <!-- Dashboard Content -->
+            <section class="dashboard-content">
+
+                <div class="section-heading">
+                    <div>
+                        <h2>Spending Overview</h2>
+                        <p>Here is your spending breakdown for this month.</p>
+                    </div>
+
+                    <span class="period">September 2026</span>
+                </div>
+
+
+                <!-- Category Cards -->
+                <div class="cards-grid">
+
+                    <!-- Food -->
+                    <article class="category-card" tabindex="0">
+                        <div class="card-top">
+                            <div class="category-icon food">🍔</div>
+                            <span class="status">On track</span>
+                        </div>
+
+                        <div class="card-content">
+                            <h3>Food</h3>
+                            <p class="amount">KES 12,500</p>
+                            <p class="budget">of KES 15,000 budget</p>
+                        </div>
+
+                        <div class="progress">
+                            <span style="width: 83%;"></span>
+                        </div>
+
+                        <div class="card-footer">
+                            <span>83% used</span>
+                            <span>KES 2,500 left</span>
+                        </div>
+                    </article>
+
+
+                    <!-- Transport -->
+                    <article class="category-card" tabindex="0">
+                        <div class="card-top">
+                            <div class="category-icon transport">🚗</div>
+                            <span class="status">Good</span>
+                        </div>
+
+                        <div class="card-content">
+                            <h3>Transport</h3>
+                            <p class="amount">KES 7,200</p>
+                            <p class="budget">of KES 10,000 budget</p>
+                        </div>
+
+                        <div class="progress">
+                            <span style="width: 72%;"></span>
+                        </div>
+
+                        <div class="card-footer">
+                            <span>72% used</span>
+                            <span>KES 2,800 left</span>
+                        </div>
+                    </article>
+
+
+                    <!-- Rent -->
+                    <article class="category-card" tabindex="0">
+                        <div class="card-top">
+                            <div class="category-icon rent">🏠</div>
+                            <span class="status">Paid</span>
+                        </div>
+
+                        <div class="card-content">
+                            <h3>Rent</h3>
+                            <p class="amount">KES 25,000</p>
+                            <p class="budget">of KES 25,000 budget</p>
+                        </div>
+
+                        <div class="progress">
+                            <span style="width: 100%;"></span>
+                        </div>
+
+                        <div class="card-footer">
+                            <span>100% used</span>
+                            <span>Completed</span>
+                        </div>
+                    </article>
+
+
+                    <!-- Entertainment -->
+                    <article class="category-card" tabindex="0">
+                        <div class="card-top">
+                            <div class="category-icon entertainment">🎬</div>
+                            <span class="status">Good</span>
+                        </div>
+
+                        <div class="card-content">
+                            <h3>Entertainment</h3>
+                            <p class="amount">KES 4,500</p>
+                            <p class="budget">of KES 8,000 budget</p>
+                        </div>
+
+                        <div class="progress">
+                            <span style="width: 56%;"></span>
+                        </div>
+
+                        <div class="card-footer">
+                            <span>56% used</span>
+                            <span>KES 3,500 left</span>
+                        </div>
+                    </article>
+
+
+                    <!-- Savings -->
+                    <article class="category-card" tabindex="0">
+                        <div class="card-top">
+                            <div class="category-icon savings">💰</div>
+                            <span class="status">Growing</span>
+                        </div>
+
+                        <div class="card-content">
+                            <h3>Savings</h3>
+                            <p class="amount">KES 18,000</p>
+                            <p class="budget">of KES 20,000 goal</p>
+                        </div>
+
+                        <div class="progress">
+                            <span style="width: 90%;"></span>
+                        </div>
+
+                        <div class="card-footer">
+                            <span>90% reached</span>
+                            <span>KES 2,000 to go</span>
+                        </div>
+                    </article>
+
+
+                    <!-- Utilities -->
+                    <article class="category-card" tabindex="0">
+                        <div class="card-top">
+                            <div class="category-icon utilities">💡</div>
+                            <span class="status">On track</span>
+                        </div>
+
+                        <div class="card-content">
+                            <h3>Utilities</h3>
+                            <p class="amount">KES 6,800</p>
+                            <p class="budget">of KES 9,000 budget</p>
+                        </div>
+
+                        <div class="progress">
+                            <span style="width: 76%;"></span>
+                        </div>
+
+                        <div class="card-footer">
+                            <span>76% used</span>
+                            <span>KES 2,200 left</span>
+                        </div>
+                    </article>
+
+                </div>
+
+
+                <!-- Bottom Summary -->
+                <section class="summary">
+                    <div class="summary-item">
+                        <span>Total Monthly Budget</span>
+                        <strong>KES 67,000</strong>
+                    </div>
+
+                    <div class="summary-item">
+                        <span>Total Spent</span>
+                        <strong>KES 56,000</strong>
+                    </div>
+
+                    <div class="summary-item">
+                        <span>Remaining</span>
+                        <strong>KES 11,000</strong>
+                    </div>
+                </section>
+
+            </section>
+
+        </main>
+
+    </div>
+
+</body>
+
+</html>
+```
